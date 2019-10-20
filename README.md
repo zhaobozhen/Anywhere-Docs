@@ -11,9 +11,7 @@ Anywhere- 目前有 3 个工作模式：
 此模式无需任何运行时权限，通过[ URL Scheme 协议](https://en.m.wikipedia.org/wiki/Uniform_Resource_Identifier)打开特定页面。
 - 优点：无需任何运行时权限，可打开指定界面。
 [像这样](anywhere://url?param1=alipays://platformapi/startapp?appId=60000002&param2=&param3=) 
-
 [像这样](anywhere://url?param1=orpheus://song/478127&param2=&param3=) 
-
 [或者像这样](anywhere://url?param1=coolmarket://www.coolapk.com/feed/271681&param2=&param3=)
 
 - 缺点：需要应用支持；不支持所有页面。
@@ -24,7 +22,6 @@ Anywhere- 目前有 3 个工作模式：
 Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
 - 优点：可以打开任何 **Activity** 页面。
 [像这样](anywhere://url?param1=com.android.settings&param2=.wifi.WifiSettings&param3=1)
-
 [或者像这样](anywhere://url?param1=tv.danmaku.bili&param2=.MainActivityV2&param3=0)
 
 - 缺点：暂时不支持打开 **Fragment**；暂时不支持传递 **Intent Extras**。
