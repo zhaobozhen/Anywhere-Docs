@@ -16,7 +16,7 @@ Anywhere- 目前有 3 个工作模式：
 
 - 缺点：需要应用支持；不支持所有页面。
 
-[使用方法](#URL Scheme 模式)
+[使用方法](#url-scheme-%E6%A8%A1%E5%BC%8F)
 
 ## Root
 Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
