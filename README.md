@@ -26,10 +26,14 @@ Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
 
 - 缺点：暂时不支持打开 **Fragment**；暂时不支持传递 **Intent Extras**。
 
+[使用方法](/Root-Mode-Usage.md)
+
 ## Shizuku
-Shizuku 模式可以通过使用 [Shizuku Manager](coolmarket://www.coolapk.com/apk/moe.shizuku.privileged.api) 实现免 Root 权限获得与 Root 模式相同的功能。
+Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/moe.shizuku.privileged.api) 实现免 Root 权限获得与 Root 模式相同的功能。
 - 优点：无需 Root 权限实现 Root 模式功能。
 - 缺点：需要额外下载 Shizuku Manager。
+
+[使用方法](/Shizuku-Mode-Usage.md)
 
 # Anywhere- 将要做什么
 - [ ] 打开任意 Fragment
