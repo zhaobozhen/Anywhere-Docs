@@ -39,9 +39,8 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 [使用方法](/Put-Intent-Extras.md)
 
 # Anywhere- 将要做什么
-- [ ] 打开任意 Fragment
+- [ ] 打开任意 Fragment(尝试性)
 - [ ] 支持传递 Intent 参数
-- [ ] 微信小程序
-- [ ] 排序
+- [ ] 微信小程序(尝试性)
 - [ ] 分页
 - [ ] ... 
