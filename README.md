@@ -35,6 +35,9 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 
 [使用方法](/Shizuku-Mode-Usage.md)
 
+# 添加 Intent Extras
+[使用方法](/Put-Intent-Extras.md)
+
 # Anywhere- 将要做什么
 - [ ] 打开任意 Fragment
 - [ ] 支持传递 Intent 参数
