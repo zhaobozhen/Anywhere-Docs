@@ -3,12 +3,12 @@ Anywhere- 是我有一天突然有了灵感并开始着手制作的工具类 App
 
 # Anywhere- 能做什么？
 Anywhere- 目前有 3 个工作模式：
-- URL Scheme
+- Normal
 - Root
 - Shizuku
 
-## URL Scheme
-此模式无需任何运行时权限，通过[ URL Scheme 协议](https://en.m.wikipedia.org/wiki/Uniform_Resource_Identifier)打开特定页面。
+## Normal
+此模式无需任何运行时权限，通过[ URL Scheme 协议](https://en.m.wikipedia.org/wiki/Uniform_Resource_Identifier)打开特定页面，也可以通过 Intent 打开 Exported 页面。
 - 优点：无需任何运行时权限，可打开指定界面。
 [像这样](anywhere://url?param1=alipays://platformapi/startapp?appId=60000002&param2=&param3=) 
 [像这样](anywhere://url?param1=orpheus://song/478127&param2=&param3=) 
