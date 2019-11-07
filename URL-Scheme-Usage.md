@@ -1,4 +1,4 @@
-# URL Scheme 模式
+# Normal 模式
 ## 1.适用场景
 - 支付宝小程序（蚂蚁森林、电影票、火车票） [像这样](anywhere://url?param1=alipays://platformapi/startapp?appId=60000002&param2=&param3=)
 - 网易云歌单 [像这样]( anywhere://url?param1=orpheus://playlist/523958926&param2=&param3=)
