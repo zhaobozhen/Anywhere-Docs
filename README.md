@@ -21,8 +21,8 @@ Anywhere- 目前有 3 个工作模式：
 ## Root
 Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
 - 优点：可以打开任何 **Activity** 页面。
-[像这样](anywhere://url?param1=com.android.settings&param2=.wifi.WifiSettings&param3=1)
-[或者像这样](anywhere://url?param1=tv.danmaku.bili&param2=.MainActivityV2&param3=0)
+[像这样](anywhere://url?param1=com.android.settings&param2=.wifi.WifiSettings&param3=)
+[或者像这样](anywhere://url?param1=tv.danmaku.bili&param2=.MainActivityV2&param3=)
 
 - 缺点：暂时不支持打开 **Fragment**；暂时不支持传递 **Intent Extras**。
 
