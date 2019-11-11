@@ -40,7 +40,7 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 
 # Anywhere- 将要做什么
 - [ ] 打开任意 Fragment(尝试性)
-- [ ] 支持传递 Intent 参数
+- [ ] 自定义 Page
 - [ ] 微信小程序(尝试性)
 - [ ] 分页
 - [ ] ... 
