@@ -35,6 +35,14 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 
 [使用方法](/Shizuku-Mode-Usage.md)
 
+# 添加方式
+在主界面右下角的按钮中有三种 Activity 添加方式：
+- URL Scheme
+- 活动列表
+- Collector
+
+它们分别适用于不用的场景。（待补充）
+
 # 添加 Intent Extras
 [使用方法](/Put-Intent-Extras.md)
 
