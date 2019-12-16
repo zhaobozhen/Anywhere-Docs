@@ -26,7 +26,7 @@ Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
 [像这样](anywhere://url?param1=com.android.settings&param2=.wifi.WifiSettings&param3=)
 [或者像这样](anywhere://url?param1=tv.danmaku.bili&param2=.MainActivityV2&param3=)
 
-- 缺点：暂时不支持打开 **Fragment**；暂时不支持传递 **Intent Extras**。
+- 缺点：暂时不支持打开 **Fragment**；
 
 [使用方法](/Root-Mode-Usage.md)
 
@@ -38,9 +38,10 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 [使用方法](/Shizuku-Mode-Usage.md)
 
 # 添加方式
-在主界面右下角的按钮中有三种 Activity 添加方式：
+在主界面右下角的按钮中有四种 Activity 添加方式：
 - URL Scheme
 - 活动列表
+- 扫码合集
 - Collector
 
 它们分别适用于不用的场景。（待补充）
@@ -49,8 +50,8 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 [使用方法](/Put-Intent-Extras.md)
 
 # Anywhere- 将要做什么
-- [ ] 打开任意 Fragment(尝试性)
+- [ ] 毛玻璃
 - [ ] 自定义 Page
-- [ ] 微信小程序(尝试性)
+- [ ] Workflow
 - [ ] 分页
 - [ ] ... 
