@@ -38,11 +38,12 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 [使用方法](/Shizuku-Mode-Usage.md)
 
 # 3.添加方式
-在主界面右下角的按钮中有四种 Activity 添加方式：
+目前有如下几种 Anywhere- 添加方式：
 - URL Scheme
 - 活动列表
 - 扫码合集
 - Collector
+- 其他应用分享至 Anywhere-
 
 它们分别适用于不用的场景。（待补充）
 
