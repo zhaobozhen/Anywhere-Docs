@@ -45,7 +45,7 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 - Collector
 - 其他应用分享至 Anywhere-
 
-它们分别适用于不用的场景。（待补充）
+它们分别适用于不用的场景。[查看详情](/Adding-Approach.md)
 
 # 4.添加 Intent Extras
 [使用方法](/Put-Intent-Extras.md)
