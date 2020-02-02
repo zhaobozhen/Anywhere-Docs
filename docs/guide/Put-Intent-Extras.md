@@ -2,7 +2,7 @@
 
 使用以下格式添加 Extras
 
-```
+``` bash
 -e|--es <EXTRA_KEY> <EXTRA_STRING_VALUE>
 
 --ez <EXTRA_KEY> <EXTRA_BOOLEAN_VALUE>
@@ -25,7 +25,7 @@
 ```
 
 例如：
-```
+``` bash
 --es name absinthe
 --ei id 123
 ...

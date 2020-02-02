@@ -57,7 +57,7 @@ module.exports = {
 }
 
 function getSidebar() {
-  return ['', 'URL-Scheme-Usage', 'Shizuku-Mode-Usage', 'Root-Mode-Usage', 'Put-Intent-Extras', 'Adding-Approach']
+  return ['', 'URL-Scheme-Usage', 'Root-Mode-Usage', 'Shizuku-Mode-Usage', 'Put-Intent-Extras', 'Adding-Approach']
 }
 
 function getNavbar(prefix, guide, download) {
