@@ -35,9 +35,9 @@ Root 模式通过使用 ADB 指令打开指定的页面(Activity)。
 [使用方法](/guide/Root-Mode-Usage.html)
 
 ### 3.Shizuku
-Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/moe.shizuku.privileged.api) 实现免 Root 权限获得与 Root 模式相同的功能。
-- 优点：无需 Root 权限实现 Root 模式功能。
-- 缺点：需要额外下载 Shizuku Manager。
+Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/moe.shizuku.privileged.api) 实现无需授予本程序 Root 权限获得与 Root 模式相同的功能。
+- 优点：无需授予 Root 权限实现 Root 模式功能。
+- 缺点：需要额外下载 Shizuku Manager，Shizuku 需要 Root 模式激活。
 
 [使用方法](/guide/Shizuku-Mode-Usage.html)
 
