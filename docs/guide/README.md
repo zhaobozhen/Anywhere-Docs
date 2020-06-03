@@ -47,6 +47,7 @@ Shizuku 模式可以通过使用 [Shizuku Manager](https://www.coolapk.com/apk/m
 - 活动列表
 - 扫码合集
 - Collector
+- 高级卡片
 - 其他应用分享至 Anywhere-
 
 它们分别适用于不用的场景。[查看详情](/guide/Adding-Approach.html)
@@ -63,6 +64,10 @@ Anywhere- 提供基础的备份与恢复功能，在 **设置 - 备份和恢复*
 
 #### 1.2分享配置
 点击**分享配置**选项，Anywhere- 会生成一串加密数据。此数据包含所有的 Anywhere-，将其复制后即可分享给其他人。
+
+::: warning 注意
+ **图片卡片**和**文件卡片** 不会被备份。
+:::
 
 ### 2.恢复和应用
 #### 2.1恢复

@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/zhaobozhen/Anywhere-Docs#readme",
   "devDependencies": {
-    "vuepress": "^1.3.0"
+    "vuepress": "^1.4.1"
   },
+  "dependencies": {},
   "description": ""
 }
