@@ -1,10 +1,10 @@
 # Normal 模式
 
 ## 适用场景
-- 支付宝小程序（蚂蚁森林、电影票、火车票） [像这样](anywhere://url?param1=alipays://platformapi/startapp?appId=60000002&param2=&param3=)
-- 网易云歌单 [像这样]( anywhere://url?param1=orpheus://playlist/523958926&param2=&param3=)
-- 微博热搜 [像这样](anywhere://url?param1=weibo://fragmentpage?containerid=102803&needlocation=1&param2=&param3=)
-- 酷安动态 [像这样](anywhere://url?param1=coolmarket://www.coolapk.com/feed/271681&param2=&param3=)
+- 支付宝小程序（蚂蚁森林、电影票、火车票） [像这样](anywhere://url?param1=alipays://platformapi/startapp?appId=60000002&type=0)
+- 网易云歌单 [像这样]( anywhere://url?param1=orpheus://playlist/523958926&&type=0)
+- 微博热搜 [像这样](anywhere://url?param1=weibo://fragmentpage?containerid=102803&type=0)
+- 酷安动态 [像这样](anywhere://url?param1=coolmarket://www.coolapk.com/feed/271681&type=0)
 - ……
 
 更多操作可能请前往 [捷径社区](https://sharecuts.cn/apps) 查看。
