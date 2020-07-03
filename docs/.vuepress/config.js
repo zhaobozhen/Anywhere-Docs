@@ -40,7 +40,7 @@ module.exports = {
         sidebar: {
           '/guide/': getSidebar()
         },
-        nav: getNavbar('/', '指南', '下载'),
+        nav: getNavbar('/', '指南', '更新日志', '下载'),
         lastUpdated: '最后更新'
       }
     },
@@ -60,9 +60,10 @@ function getSidebar() {
   return ['', 'URL-Scheme-Usage', 'Root-Mode-Usage', 'Shizuku-Mode-Usage', 'Put-Intent-Extras', 'Adding-Approach']
 }
 
-function getNavbar(prefix, guide, download) {
+function getNavbar(prefix, guide, changelog, download) {
   return [
     { text: guide, link: `${prefix}guide/` },
+    { text: changelog, link: `${prefix}changelog.html` },
     { text: download, link: `${prefix}download.html` },
   ]
 }
