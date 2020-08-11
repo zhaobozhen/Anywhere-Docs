@@ -3,7 +3,7 @@
 ## Anywhere- 是什么？
 Anywhere- 是我有一天突然有了灵感并开始着手制作的工具类 App。它支持将你常用的页面 (Activity) 收集到一个界面并保存，方便快速打开。在手机 App 数量繁多的今天，Anywhere- 也许能帮助你节约一些时间，做一些微小的工作。
 
-![Android CI](https://github.com/zhaobozhen/Anywhere-/workflows/Android%20CI/badge.svg)
+[![Build status](https://build.appcenter.ms/v0.1/apps/7a83abfb-6d9b-4b48-8c87-835c488c145e/branches/master/badge)](https://appcenter.ms)
 
 ## Anywhere- 能做什么？
 Anywhere- 目前有 3 个工作模式：
