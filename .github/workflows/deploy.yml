@@ -1,19 +1,36 @@
-name: Build and Deploy
+name: Deploy GitHub Pages
+
 on:
   push:
     branches:
       - master
+
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run docs:build
+      - uses: actions/cache@v2
+        id: node-modules
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+      - name: Install Deps
+        if: steps.node-modules.outputs.cache-hit != 'true'
+        run: yarn install
+
+      - name: Build Template
+        run: yarn run docs:build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
