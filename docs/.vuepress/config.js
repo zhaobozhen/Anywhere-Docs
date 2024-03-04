@@ -1,6 +1,7 @@
 module.exports = {
   base: '/Anywhere-Docs/',
   title: 'Anywhere-',
+  dest: "./dist",
   head: [
     ['link', {
       rel: 'stylesheet',
